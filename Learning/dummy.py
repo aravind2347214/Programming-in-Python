@@ -1,15 +1,12 @@
-# 
+COLORS=[['black'],['black','white'],['white'],['black','white'],['white'],['black','white']]
 
-
-
-BLACKWHITE=[['black'],['white','black'],['white'],['white','black'],['white'],['black']]
-
-def uniqueCount(colorList):
+def unique_count(colorList):
     color_dict={}
     for node in colorList:
-        color_dict[tuple(node)]= colorList.count(node)
-    print(color_dict)  
+        color_dict[tuple(node)]=colorList.count(node)
+    print(color_dict)
 
-uniqueCount(BLACKWHITE) 
+unique_count(COLORS) 
 
+       
 
