@@ -1,12 +1,15 @@
-COLORS=[['black'],['black','white'],['white'],['black','white'],['white'],['black','white']]
+#import datetime
 
-def unique_count(colorList):
-    color_dict={}
-    for node in colorList:
-        color_dict[tuple(node)]=colorList.count(node)
-    print(color_dict)
+from datetime import datetime
+today=datetime.now()
+days =["Mon","Tues", "Wed", "Thurs","Fri","Sat" ,"Sun"]
+print(today)
+print(today.day)
+print(today.month)
+print(today.weekday())
+print(days[today.weekday()])
 
-unique_count(COLORS) 
 
-       
+
+
 
