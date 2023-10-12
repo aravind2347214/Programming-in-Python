@@ -1,0 +1,23 @@
+python -m venv myenv
+➔ myenv\Scripts\activate
+➔ pip install Django // no need to install always
+➔ django-admin startproject myfirstproject
+➔ cd myfirstproject
+➔ django-admin startapp myapp      // we can create any number of apps in out project
+➔ python manage.py migrate         // manage.py is the command line utility that
+facilitate to connect with your Django project
+➔ python manage.py createsuperuser
+➔ python manage.py runserver
+
+Step 1: View.py (in NewAPP you created)
+➔create a function using def functionname(req)
+from django.shortcuts import render
+from django.http import HttpResponse
+
+
+➔
+➔
+➔
+➔
+➔
+➔
